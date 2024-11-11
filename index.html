@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="MelRe: Vision-Based Mel-Spectrogram Restoration">
+  <meta property="og:title" content="MelRe: Vision-Based Mel-Spectrogram Restoration" />
+  <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
+
+  <title>MelRe: Vision-Based Mel-Spectrogram Restoration</title>
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
+
+  <link rel="stylesheet" href="static/css/bulma.min.css">
+  <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="static/css/index.css">
+  <link rel="stylesheet" href="static/css/audio-table.css">
+  <link rel="stylesheet" type="text/css" href="static/css/dropdown_style.css">
+
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+  <script defer src="static/js/fontawesome.all.min.js"></script>
+  <script src="static/js/bulma-carousel.min.js"></script>
+  <script src="static/js/bulma-slider.min.js"></script>
+  <script src="static/js/index.js"></script>
+</head>
+
+<body>
+
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <h1 id="co-speech-modalities" class="title is-1 publication-title">MelRe: Vision-Based Mel-Spectrogram Restoration</h1>
+            <!-- <h1 class="title is-1 publication-title">with Self-Supervised Speech Discrete Units</h1> -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="section hero is-light">
+    <div class="container is-max-desktop">
+      <!-- Abstract. -->
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3">Abstract</h2>
+          <div class="content has-text-justified">
+            <p>
+              With advancements in visual technology, an increasing number of visual techniques have recently been applied in other fields. Among them, mel spectrograms provide a bridge between audio features and visual models. Previous work has demonstrated that applying image processing methods to mel spectrograms is feasible. However, traditional image-based models operate at a relatively coarse level, focusing primarily on controlling texture and shape. In contrast, mel spectrograms are highly sensitive to detail, containing complex time-frequency information that requires more refined modeling. To address this, we propose MelRe, a visual model specifically designed for mel spectrograms, aimed at tackling diverse and complex audio degradation issues from a visual perspective. MelRe addresses the need for fine-grained detail through pixel-level restoration methods and employs degradation alignment and noise simulation strategies to achieve high-precision restoration across varying levels of degradation. Additionally, the model leverages audio semantic guidance and classifier-free guidance techniques, demonstrating exceptional restoration performance. Experimental results show that MelRe achieves a new state-of-the-art (SOTA) level in complex audio restoration tasks, highlighting its potential for high-quality audio repair.
+            </p>
+          </div>
+          <img style="text-align: center;" src="resources/intro.png" />
+        </div>
+      </div>
+      <!--/ Abstract. -->
+    </div>
+  </section>
+</body>
